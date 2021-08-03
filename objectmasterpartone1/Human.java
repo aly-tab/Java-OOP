@@ -1,3 +1,5 @@
+package comd.codingdojo.objectmasterpartone;
+
 public class Human {
     public int strength = 3;
     public int stealth = 3;
@@ -12,4 +14,5 @@ public class Human {
         System.out.println("Health: " + Human.getHealth() + " Attack: " + this.strength);
         return Human.getHealth() - this.strength;
     }
+
 }
